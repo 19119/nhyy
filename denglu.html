@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录界面</title>
+	<style>
+			body{
+				background-color: #1E9FFF;
+			}
+			#loginDiv{
+				background-color:white;
+				width:550px;
+				height:600px;
+				margin:0 auto;
+				color:black;
+				margin-top:100px;
+				text-align: center;
+				padding-top:20px;
+			}
+			#uname{
+				width:426px;
+				height: 55px;
+				border-radius:5px;
+				border:1px solid lightgray;
+				margin-left:-30px;/*向左移，防止挡住小人*/
+				background-color:transparent;/*使得文本框背景透明*/
+				padding-left: 30px;
+			}
+			#upsw{
+				width:426px;
+				height: 55px;
+				border-radius:5px;
+				border:1px solid lightgray;
+				margin-left:-30px;
+				background-color:transparent;
+				padding-left: 30px;
+				margin-top: 6px;}
+			#loginBtn{
+				width:456px;
+				height: 55px;
+				margin-top: 11px;
+				background-color:orangered;
+				border:1px solid lightgray;
+				border-radius: 5px; /*四角变圆*/
+				color: white;
+				text-align: center;
+			}
+			#num{
+				margin-top: 18px;
+			}
+			#bottom{
+				border:1px solid white;
+				width:541px;
+				height:80px;
+				font-size:25px;
+				text-align: center;
+				color:red;
+				
+		</style>
+	</head>
+	<body>
+		
+		<div id="loginDiv">
+			<img src="images/nuc.png" width="550px" height="150px" >
+			<h1>毕业设计管理系统</h1>
+			
+			<img src="images/user.png">
+			<input placeholder="请输入用户名" type="text" id="uname" name="username">
+	         <br>
+	         <img src="images/password.png">
+	         <input placeholder="请输入密码" type="password" id="upsw" name="userupsw">	
+	         <br>
+	         <button id="loginBtn">登录</button><br>
+	          <a href="http://nuc.deu.cn"><img src="images/weixin.png " id ="num" ></a>&nbsp&nbsp&nbsp&nbsp<a href="http://nuc.deu.cn"><img src="images/weibo.png" ></a>&nbsp&nbsp&nbsp&nbsp<a href="http://nuc.deu.cn"><img src="images/qq.png" ></a><br>
+            <input placeholder="弓博 中北大学软件学院  技术支持：吴志军"type="text" id="bottom" name="unbottom">
+		</div> 
+	</body>
+</html>
+ 
